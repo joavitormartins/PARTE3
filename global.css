@@ -1,0 +1,31 @@
+button {
+    cursor: pointer;
+}
+button:active {
+    opacity: 0.8;
+}
+button[disabled] {
+    opacity: 0.8;
+}
+
+.clear {
+    background: transparent;
+    border: none;
+    color: white;
+}
+.solid {
+    background: white;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+.outline {
+   
+    color: rgb(0, 0, 0);
+    border: 1px solid white;
+}
+
+.error {
+    background: red;
+    color: white;
+    display: none;
+} 

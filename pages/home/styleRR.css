@@ -1,0 +1,47 @@
+*{
+    background: rgb(29, 29, 29);
+    margin-inline:auto;
+
+}
+
+
+body {
+    background: rgb(29, 29, 29);
+    height: 100vh;
+}
+form {
+   
+    width: 238px;
+    color:rgba(123, 123, 123, 0.833);
+}
+input {
+    margin-top: 7px;
+    border: none;
+    border-radius: 5px;
+
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+button {cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+#email-invalid-error{
+ display: none;
+}
+#email-required-error{
+    display: none; 
+}
+#password-required-error{
+    display: none;
+}
+#password-min-length-error{
+    display: none;
+}
+#password-doesnt-match-error{
+    display: none;
+}
