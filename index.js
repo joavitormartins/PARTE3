@@ -12,7 +12,7 @@ function onChangePassword() {
 
 //inserir o location
 function register(){
-    window.location.href="/pages/home/indexR.html"
+    window.location.href="./pages/home/indexR.html"
 }
 function login(){
 
@@ -22,7 +22,7 @@ function login(){
 
        .then(Response =>{
            console.log("sucess",Response)
-           window.location.href="/pages/home/index.html"
+           window.location.href="./pages/home/index.html"
     })
        .catch(error =>{
            console.log("error",error)
