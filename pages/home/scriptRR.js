@@ -5,7 +5,7 @@ login.addEventListener('touch',voltar);
 
 
 function voltar(){
-    window.location.href="/index.html"
+    window.location.href="./index.html"
 }
 
 function register(){
